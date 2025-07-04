@@ -5,6 +5,7 @@ import Treatments from './pages/Treatments';
 import Trademarks from './pages/Trademarks';
 import Contact from './pages/Contact';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
