@@ -1,3 +1,21 @@
 .header img {
-  width: 10em;
+  width: 5.6em;
+  position: fixed;
+  left: 30em;
+  right: 0px;
+  top: 0px;
+}
+
+.header {
+  padding: 1em;
+  background-color: #c6beaf;
+
+}
+
+.header a {
+  color: #fff;
+  padding: 2em;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 3em;
 }
