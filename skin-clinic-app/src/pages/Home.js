@@ -5,8 +5,11 @@ import ImageCarousel from "../components/ImageCarousel";
 function Home() {
     return(
         <div className="home">
-            <h1>Startsida</h1>
             <ImageCarousel />
+            <p>Malmö skinclinic - Storgatan 39A, 211 42, Malmö Boka tid: 0729785925 eller på mail: </p>
+            <h2>Din estetiska klinik i centrum av Malmö inom injektionsbehandligar som fillers och botox</h2>
+            <h3>Om företaget</h3>
+            <p>Efter mer än 10 år i branschen är Malmö skin clinic äntligen på boka direkt. Familjeföretaget som drivs av mor och son med erfarenheter som legitimerade sjuksköterskor, främst inom estetik!  </p>
         </div>
     )
 }

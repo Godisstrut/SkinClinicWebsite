@@ -1,3 +1,11 @@
 .home {
-    /*background-color: #f3f2e1; */
+    background-color: #fffff8; 
+}
+
+.home p {
+    margin: 1em;
+}
+
+.home img {
+    margin: 0.5em;
 }
