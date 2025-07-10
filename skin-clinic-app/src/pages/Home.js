@@ -10,6 +10,7 @@ function Home() {
             <h2>Din estetiska klinik i centrum av Malmö inom injektionsbehandligar som fillers och botox</h2>
             <h3>Om företaget</h3>
             <p>Efter mer än 10 år i branschen är Malmö skin clinic äntligen på boka direkt. Familjeföretaget som drivs av mor och son med erfarenheter som legitimerade sjuksköterskor, främst inom estetik!  </p>
+            <p>Hos oss får du gratis konsultation i samband med ditt besök, du får också råd och egenvårdsåtgärder. Alla nya kunder behöver boka in konsultation minst 48 timmar innan behandling.</p>
         </div>
     )
 }
