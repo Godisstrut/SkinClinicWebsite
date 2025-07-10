@@ -10,18 +10,23 @@
   align-items: center;
 }
 
-.header a {
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.4em;
+}
+
+.links a {
   color: #fff;
   padding: 1em;
-  text-decoration: none;
-  font-size: 1.3em;
+  text-decoration: none; 
 }
 
 .header-link {
   color: #fff;
   padding: 1em;
   text-decoration: none;
-  font-size: 1.3em;
 }
 
 .header-link:hover {
