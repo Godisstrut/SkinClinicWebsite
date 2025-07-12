@@ -1,0 +1,8 @@
+.trademarks {
+    background-color: #fffff8;
+}
+
+.brands-layout {
+    display: flex;
+    flex-direction: row;
+}
