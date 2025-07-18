@@ -3,7 +3,11 @@
     font-family: "Playfair Display", serif;
 }
 
+.trademarks h2 {
+    margin: 1em;
+}
+
 .brands-layout {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
