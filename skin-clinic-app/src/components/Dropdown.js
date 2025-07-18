@@ -14,8 +14,8 @@ function DropdownMenu() {
         <Dropdown.Item as={Link} to="/treatments/fillers">
           Fillers
         </Dropdown.Item>
-        <Dropdown.Item as={Link} to="/treatments/laser">
-          Laser
+        <Dropdown.Item as={Link} to="/treatments/skinyouth">
+          Hudföryngring
         </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
