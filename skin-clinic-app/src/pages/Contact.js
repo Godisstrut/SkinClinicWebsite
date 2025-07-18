@@ -32,6 +32,7 @@ function Contact() {
                     <p>Kliniken har öppet måndag till fredag 08:00-17:00. Helger är stängt</p>
                     <p>Telefon: +46729785925</p>
                     <p>Mail: malmoskinclinic@gmail.com</p>
+                    <p>Boka direkt: <a href="https://www.bokadirekt.se/places/malmo-skin-clinic-57952" target="_blank" rel="noreferrer">Malmö Skin Clinic</a></p>
                 </Col>
             </Row>
         </Container>

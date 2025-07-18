@@ -10,7 +10,7 @@ function BrandCard({name, image, description}) {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Card.Link href="#">Gå till produktsidan</Card.Link>
+        <Card.Link href="https://molderm.com/?lang=sv" target="_blank">Gå till produktsidan</Card.Link>
       </Card.Body>
     </Card>
     )

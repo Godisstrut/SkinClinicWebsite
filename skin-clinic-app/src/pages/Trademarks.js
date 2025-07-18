@@ -6,7 +6,7 @@ import brands from "../components/BrandsData"
 function Trademarks() {
     return(
         <div className="trademarks">
-            <h2>Våra Varumärken:</h2>
+            <h2>Våra Varumärken</h2>
             <div className="brands-layout">
                 {brands.map((brand, id) => (
                     <BrandCard
