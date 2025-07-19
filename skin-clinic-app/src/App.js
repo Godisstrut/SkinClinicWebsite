@@ -6,7 +6,7 @@ import Trademarks from './pages/Trademarks';
 import Contact from './pages/Contact';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Botox from './pages/Botox';
+import Botox from './pages/Botox/Botox';
 import Fillers from './pages/Fillers';
 import SkinYouth from './pages/SkinYouth';
 

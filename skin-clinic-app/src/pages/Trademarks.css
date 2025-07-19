@@ -1,10 +1,11 @@
+
 .trademarks {
-    background-color: #fffff8;
+    background-color: #fef5ef;
     font-family: "Playfair Display", serif;
 }
 
-.trademarks h2 {
-    margin: 1em;
+.trademarks h1 {
+    padding: 1em;
 }
 
 .brands-layout {
