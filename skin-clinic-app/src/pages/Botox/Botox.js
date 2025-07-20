@@ -5,31 +5,43 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Fade from 'react-bootstrap/Fade';
 import BotoxData from "./BotoxData.json";
+import BotoxCard from './BotoxCard';
 import "./Botox.css";
 
 function Botox() {
-    const [open, setOpen] = useState(false);
-
+    const [openIndexes, setOpenIndexes] = useState({});
+    //Used for toggling between opening and closing the description for each individual treatment
+    const toggleDescription = (id) => {
+        setOpenIndexes((prev) => ({
+            ...prev,
+            [id]: !prev[id]
+        }));
+    };
     return(
         <div className="botox">
         <Container>
             <Row>
                 <Col >
                 <h1>Botox behandlingar</h1>
-                {BotoxData.map((data) => (<>
-                    <h2 className="title">{data.title}</h2>
-                    <h3> {data.area}</h3>
-                    <p> {data.price} </p>
+                {BotoxData.map((data, id) => (<>
+                    <BotoxCard 
+                    key= {id}
+                    title = {data.title}
+                    area = {data.area}
+                    price = {data.price}
+                    />
                     <Button
-                    onClick={() => setOpen(!open)}
-                    aria-controls="example-fade-text"
-                    aria-expanded={open}>Läs mer
-                    </Button>
-                    <Fade in={open}>
-                    <div id="example-fade-text">
-                        <p> {data.description} </p>
-                    </div>
-                    </Fade>
+                  onClick={() => toggleDescription(id)}
+                  aria-controls= "example-fade-text"
+                  aria-expanded={openIndexes[id] || false}
+                >
+                  {openIndexes[id] ? "Visa mindre" : "Läs mer"}
+                </Button>
+                <Fade in={openIndexes[id]}>
+                  <div id="example-fade-text">
+                    <p>{data.description}</p>
+                  </div>
+                </Fade>
                 </>))}
                 <>
                 </>
