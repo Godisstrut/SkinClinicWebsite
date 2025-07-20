@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Botox from './pages/Botox/Botox';
-import Fillers from './pages/Fillers';
+import Fillers from './pages/Fillers/Fillers';
 import SkinYouth from './pages/SkinYouth';
 
 function App() {
