@@ -28,11 +28,16 @@ function Contact() {
                     </Form>
                 </Col>
                 <Col>
-                    <h2 className="contact-section">Kontakt och öppetider</h2>
-                    <p>Kliniken har öppet måndag till fredag 08:00-17:00. Helger är stängt</p>
-                    <p>Telefon: +46729785925</p>
-                    <p>Mail: malmoskinclinic@gmail.com</p>
-                    <p>Boka direkt: <a href="https://www.bokadirekt.se/places/malmo-skin-clinic-57952" target="_blank" rel="noreferrer">Malmö Skin Clinic</a></p>
+                    <h2 className="about">Kontakt & Öppettider</h2>
+                        <div className="contact-section">
+                            <p>📍 Adress: Storgatan 39A, 211 42 Malmö</p>
+                            <p>📞 Telefon:+46 72 978 59 25</p>
+                            <p>✉️ E-post: 
+                                <a href="mailto:malmoskinclinic@gmail.com"> malmoskinclinic@gmail.com</a>
+                            </p>
+                            <p> Öppetider: Mån-Fre: 08:00-17:00 </p>
+                            <p> Lördag-Söndag: stängt </p>
+                        </div>
                 </Col>
             </Row>
         </Container>

@@ -1,12 +1,48 @@
 .home {
-    background-color: #fffff8; 
+    background-color: #fffff8;
     font-family: "Playfair Display", serif;
+    padding: 1rem;
 }
 
-.home p {
-    margin: 1em;
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-.home img {
-    margin: 0.5em;
+h2 {
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+}
+
+p {
+    margin: 1em 0;
+    font-size: 1.1rem;
+}
+
+.home-wrapper {
+    max-width: 1000px;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+    /*Pamps css styling */
+    box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
+}
+
+.contact-info {
+    margin: 0;
+    font-weight: 500;
+}
+
+.contact-info a {
+    color: #CC998D;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }

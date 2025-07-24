@@ -1,9 +1,27 @@
 .about {
-    margin: 1em;
+    margin: 2rem;
 }
 
 .contact-section {
-    margin: 1em;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1rem;
+    /*Pamps css styling */
+    box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+}
+
+.contact-section a {
+    color: #cb9083;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
 }
 
 .contact {
