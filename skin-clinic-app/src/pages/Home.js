@@ -22,7 +22,8 @@ function Home() {
             </p>
             <p className="contact-info">
             <p>📍 Storgatan 39A, 211 42 Malmö </p>
-            <p> 📞 Boka tid: +46 72 978 59 25 </p>
+            <p> 📞 Boka tid: <a href="https://www.bokadirekt.se/places/malmo-skin-clinic-57952" target="_blank" >BokaDirekt</a> </p>
+            <p>📞 Telefon:+46 72 978 59 25</p>
             <p> ✉️ E-post: <a href="mailto:malmoskinclinic@gmail.com">malmoskinclinic@gmail.com</a></p>
             </p>
         </div>

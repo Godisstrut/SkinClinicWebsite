@@ -35,6 +35,7 @@ function Contact() {
                             <p>✉️ E-post: 
                                 <a href="mailto:malmoskinclinic@gmail.com"> malmoskinclinic@gmail.com</a>
                             </p>
+                            <p> 📞 Boka tid: <a href="https://www.bokadirekt.se/places/malmo-skin-clinic-57952" target="_blank" >BokaDirekt</a> </p>
                             <p> Öppetider: Mån-Fre: 08:00-17:00 </p>
                             <p> Lördag-Söndag: stängt </p>
                         </div>
