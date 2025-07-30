@@ -46,3 +46,27 @@ p {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
+/* Tablet styling for the website */
+@media (max-width: 1080px) {
+  .home-wrapper {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  .contact-info {
+    font-size: 0.95rem;
+  }
+}
