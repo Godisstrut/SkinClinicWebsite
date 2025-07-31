@@ -5,11 +5,23 @@
 }
 
 .header {
-  background-color: #fbc1c1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #FAA4BD;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+  
+}
+
+.header.scrolled {
+  background-color: #F564A9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: 0.5s ease;
 }
 
 .links {
@@ -41,7 +53,7 @@
 }
 
 .dropdown-menu {
-  background-color: white;
+  background-color: #fff;
   color: black;
   border: 1px solid #ccc;
 }
@@ -49,6 +61,7 @@
 .dropdown-menu a {
   color: black;
   text-decoration: none;
+  font-size: 1.3rem;
 }
 
 .dropdown-menu a:hover {
@@ -58,6 +71,7 @@
 /* Tablet styling for the website */
 @media (max-width: 1080px) {
   .header {
+    position: relative;
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;

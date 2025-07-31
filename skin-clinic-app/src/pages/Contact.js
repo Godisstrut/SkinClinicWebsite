@@ -30,13 +30,14 @@ function Contact() {
                 <Col>
                     <h2 className="about">Kontakt & Öppettider</h2>
                         <div className="contact-section">
-                            <p>📍 Adress: Storgatan 39A, 211 42 Malmö</p>
-                            <p>📞 Telefon:+46 72 978 59 25</p>
-                            <p>✉️ E-post: 
-                                <a href="mailto:malmoskinclinic@gmail.com"> malmoskinclinic@gmail.com</a>
+                            <p><i class="fa-solid fa-location-dot"></i> Adress: Storgatan 39A, 211 42 Malmö</p>
+                            <p><i class="fa-solid fa-phone"></i> Telefon:+46 72 978 59 25</p>
+                            <p><i class="fa-regular fa-envelope"></i> E-post: <a href="mailto:malmoskinclinic@gmail.com"> malmoskinclinic@gmail.com</a>
                             </p>
-                            <p> 📞 Boka tid: <a href="https://www.bokadirekt.se/places/malmo-skin-clinic-57952" target="_blank" >BokaDirekt</a> </p>
-                            <p> Öppetider: Mån-Fre: 08:00-17:00 </p>
+                            <p> <i class="fa-regular fa-calendar-days"></i> Boka tid: <a href="https://www.bokadirekt.se/places/malmo-skin-clinic-57952" target="_blank" rel="noreferrer" >BokaDirekt</a> </p>
+                            <p> <i class="fa-brands fa-instagram"></i> Följ oss på instagram: <a href="https://www.instagram.com/malmoskinclinic/" target="_blank" rel="noreferrer" >malmoskinclinic</a>
+                             </p>
+                            <p><i class="fa-regular fa-clock"></i> Öppetider: Mån-Fre: 08:00-17:00 </p>
                             <p> Lördag-Söndag: stängt </p>
                         </div>
                 </Col>

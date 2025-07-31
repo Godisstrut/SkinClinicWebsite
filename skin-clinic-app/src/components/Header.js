@@ -1,12 +1,23 @@
-import React from "react";
+import {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import logo from "../img/skinclinic_logga2.png";
 import "./Header.css"
 import Dropdown from "./Dropdown"
 
 function Header() {
+
+    const [scrolled, setScrolled] = useState(false);
+    
+    useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
     return(
-        <div className="header">
+        <div className={`header ${scrolled ? "scrolled" : ""}`}>
             <img src={logo} alt="Bild på företagets logga"></img>
             <div className="links">
                 <Link to="/">Startsida</Link>

@@ -1,5 +1,6 @@
 .about {
     margin: 2rem;
+    margin-top: 9rem;
 }
 
 .contact-section {
@@ -16,8 +17,9 @@
 }
 
 .contact-section a {
-    color: #cb9083;
+    color: #BB6B00;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .contact-section a:hover {

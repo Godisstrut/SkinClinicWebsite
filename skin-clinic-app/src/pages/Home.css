@@ -2,6 +2,7 @@
     background-color: #fffff8;
     font-family: "Playfair Display", serif;
     padding: 1rem;
+    padding-top: 8em;
 }
 
 h1 {
@@ -52,6 +53,10 @@ p {
   .home-wrapper {
     margin: 1rem;
     padding: 1.5rem;
+  }
+
+  .home {
+    padding-top: 1rem;
   }
 
   p {
