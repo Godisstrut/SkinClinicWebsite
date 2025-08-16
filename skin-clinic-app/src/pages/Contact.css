@@ -1,6 +1,22 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fffff8;
+}
+
 .about {
     margin: 2rem;
     margin-top: 9rem;
+}
+
+.about-text {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1rem;
+    /*Pamps css styling */
+    box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
 }
 
 .contact-section {
@@ -24,13 +40,41 @@
 
 .contact-section a:hover {
     text-decoration: underline;
+    color: #995700;
 }
 
 .contact {
     background-color: #fffff8; 
     font-family: "Playfair Display", serif;
+    min-height: 100vh; 
+    padding-bottom: 3rem; 
 }
 
 .form-label {
     font-size: 1.3em;
+}
+
+.map-link {
+    color: #BB6B00;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.map-link:hover {
+    text-decoration: underline;
+    color: #995700;
+}
+
+@media (max-width: 1080px) {
+    .about {
+        margin: 1rem 0.5rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 990px){
+    .about-text {
+        margin: 0;
+    }
 }

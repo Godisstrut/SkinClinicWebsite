@@ -4,9 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import ContactMap from "../components/ContactMap";
 import "./Contact.css"
 
 function Contact() {
+
     return(
         <div className="contact">
         <Container>
@@ -15,16 +17,16 @@ function Contact() {
                     <h2 className="about">Om företaget</h2>
                     <p className="about-text">Ibland är det svårt att veta vad man skall boka, hur många milliliter och vilka områden. Om du känner dig osäker får du gärna höra av dig via sms, messenger eller direktmeddelande på instagram så hjälper vi dig. </p>
                     <p className="about-text"> Dina behandlare är utbildade och sätter din säkerhet i fokus. På kliniken finns legitimation och certifikat. Kliniken har en erfaren läkare inom estetiska injektioner för samråd.</p>
-                    <Form>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="namn@example.com" />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Ärende:</Form.Label>
-                        <Form.Control as="textarea" rows={5} />
-                    </Form.Group>
-                    <Button variant="primary">Skicka</Button>
+                    <Form action={`mailto:malmoskinclinic@gmail.com`} method="post" encType="text/plain">
+                        <Form.Group className="mb-3" controlId="email">
+                            <Form.Label>Email address</Form.Label>
+                            <Form.Control name="from" type="email" placeholder="namn@example.com" required />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="message">
+                            <Form.Label>Ärende:</Form.Label>
+                            <Form.Control name="message" as="textarea" rows={11} placeholder="Beskrivning" required/>
+                        </Form.Group>
+                        <Button type="submit" variant="primary">Skicka</Button>
                     </Form>
                 </Col>
                 <Col>
@@ -40,6 +42,9 @@ function Contact() {
                             <p><i class="fa-regular fa-clock"></i> Öppetider: Mån-Fre: 08:00-17:00 </p>
                             <p> Lördag-Söndag: stängt </p>
                         </div>
+                    <div style={{ marginTop: 20 }} >
+                        <ContactMap />
+                    </div>
                 </Col>
             </Row>
         </Container>

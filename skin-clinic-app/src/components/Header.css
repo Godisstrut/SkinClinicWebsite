@@ -101,7 +101,7 @@
   }
 }
 /* Mobile phone styling for the website */
-@media (max-width: 640px) {
+@media (max-width: 680px) {
   .links {
     flex-direction: column;
     align-items: center;
