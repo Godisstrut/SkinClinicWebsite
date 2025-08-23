@@ -15,7 +15,7 @@
   align-items: center;
   font-family: "Playfair Display", serif;
   margin-bottom: 0;
-  
+  transition: 0.3s ease;
 }
 
 .header.scrolled {

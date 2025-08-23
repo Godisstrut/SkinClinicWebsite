@@ -3,6 +3,18 @@
     font-family: "Playfair Display", serif;
 }
 
+.botox-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.05);
+    margin: 0 1rem .5rem;
+}
+
+button {
+    margin-bottom: 1rem;
+}
+
 .botox h1 {
     margin: 1em
 }
@@ -12,14 +24,30 @@
 }
 
 .title {
-    color: #995700;
+    color: #BB6B00;
+    padding-top: 1em;
 }
 
-#example-fade-text {
+.summary {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.bullet-points {
+    margin: .2rem 0 .6rem; 
+    padding-left: 1.25rem;
+    list-style-position: inside;
+}
+
+.bullet-points li {
+    font-size: 1.1em;
+}
+
+#example-fade-text, .example-fade-text {
     background-color: #fff;
     border-radius: 15px;
     padding: 1em;
     margin: 1rem;
     /*Pamps css styling */
-    box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
+    box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px;
 }

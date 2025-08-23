@@ -1,5 +1,6 @@
 import BringOutBestMolderm from "../img/BringOutBestMolderm.png"
 import YouthfulMoisture from "../img/YouthfulMoisture.png"
+import LipsMolderm from "../img/LipsMolderm.png"
 
 const brands = [
     {
@@ -9,8 +10,13 @@ const brands = [
     },
     {
         name: "Molderm",
-        image: YouthfulMoisture ,
+        image: YouthfulMoisture,
         description: "Molderm® GLOW - Bringing youthful moisture to your skin."
+    },
+    {
+        name: "Molderm",
+        image: LipsMolderm,
+        description: "Molderm® LIPS - Crafted with a perfect balance to create volume, definition and hydration."
     }
 ]
 

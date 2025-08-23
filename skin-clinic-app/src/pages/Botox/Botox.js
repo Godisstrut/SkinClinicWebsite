@@ -1,55 +1,78 @@
-import { useState } from 'react';
+import { useState, Fragment } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Fade from 'react-bootstrap/Fade';
-import BotoxData from "./BotoxData.json";
+import Collapse from 'react-bootstrap/Collapse';
+import BotoxData from './BotoxData.json';
 import BotoxCard from './BotoxCard';
-import "./Botox.css";
+import './Botox.css';
 
 function Botox() {
-    const [openIndexes, setOpenIndexes] = useState({});
-    //Used for toggling between opening and closing the description for each individual treatment
-    const toggleDescription = (id) => {
-        setOpenIndexes((prev) => ({
-            ...prev,
-            [id]: !prev[id]
-        }));
-    };
-    return(
-        <div className="botox">
-        <Container>
-            <Row>
-                <Col >
-                <h1>Botox behandlingar</h1>
-                {BotoxData.map((data, id) => (<>
-                    <BotoxCard 
-                    key= {id}
-                    title = {data.title}
-                    area = {data.area}
-                    price = {data.price}
-                    />
-                    <Button
-                  onClick={() => toggleDescription(id)}
-                  aria-controls= "example-fade-text"
-                  aria-expanded={openIndexes[id] || false}
-                >
-                  {openIndexes[id] ? "Visa mindre" : "Läs mer"}
-                </Button>
-                <Fade in={openIndexes[id]}>
-                  <div id="example-fade-text">
-                    <p>{data.description}</p>
-                  </div>
-                </Fade>
-                </>))}
-                <>
-                </>
-                </Col>
-            </Row>
-        </Container>
-        </div>
-    )
+  const [openIndexes, setOpenIndexes] = useState({});
+
+  const toggleDescription = (id) => {
+    setOpenIndexes((prev) => ({
+      ...prev,
+      [id]: !prev[id],
+    }));
+  };
+
+  return (
+    <div className="botox">
+      <Container>
+        <Row>
+          <Col>
+            <h1>Botox behandlingar</h1>
+            {BotoxData.map((data, id) => {
+              const isOpen = !!openIndexes[id];
+              const panelId = `example-fade-text-${id}`;
+              return (
+                <Fragment key={id}>
+                  <BotoxCard
+                    title={data.title}
+                    area={data.area}
+                    price={data.price}
+                    summary={data.summary}
+                    bullets={data.bullets}
+                  />
+                  <Button
+                    onClick={() => toggleDescription(id)}
+                    aria-controls={panelId}
+                    aria-expanded={isOpen}
+                  >
+                    {isOpen ? 'Visa mindre' : 'Läs mer'}
+                  </Button>
+                  <Collapse in={isOpen} mountOnEnter unmountOnExit>
+                    <div
+                      id={panelId}
+                      className="collapse-outer"
+                      role="region"
+                      aria-labelledby={`${panelId}-label`}
+                    >
+                      <div className="example-fade-text">
+                        <h3 id={`${panelId}-label`} className="sr-only">
+                          {data.title} – beskrivning
+                        </h3>
+                        {String(data.description || '')
+                          .split(/\r?\n\s*\r?\n/)
+                          .filter(Boolean)
+                          .map((p, i) => (
+                            <p key={i} className="prose">
+                              {p.trim()}
+                            </p>
+                          ))}
+                      </div>
+                    </div>
+                  </Collapse>
+                </Fragment>
+              );
+            })}
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 }
 
-export default Botox
+export default Botox;
