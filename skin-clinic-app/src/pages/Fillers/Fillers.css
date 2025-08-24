@@ -1,6 +1,7 @@
 .fillers {
     background-color: #fffff8;
     font-family: "Playfair Display", serif;
+    margin-top: 8rem;
 }
 
 .fillers-card {
@@ -31,4 +32,10 @@
     margin: 1rem;
     /*Pamps css styling */
     box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
+}
+
+@media (max-width: 1080px) {
+    .fillers {
+        margin-top: 1rem;
+    }
 }

@@ -1,10 +1,19 @@
 .skin-youth {
     background-color: #fffff8;
     font-family: "Playfair Display", serif;
+    margin-top: 8rem;
 }
 
 .skin-youth h1 {
     margin: 1em
+}
+
+.skin-youth-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.05);
+    margin: 0 1rem .5rem;
 }
 
 .price {
@@ -15,6 +24,12 @@
     color: #BB6B00;
 }
 
+.bullet-points {
+    margin: 0.2rem 0.6rem; 
+    padding-left: 1.25rem;
+    list-style: inside;
+}
+
 #example-fade-text {
     background-color: #fff;
     border-radius: 15px;
@@ -22,4 +37,10 @@
     margin: 1rem;
     /*Pamps css styling */
     box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
+}
+
+@media (max-width: 1080px) {
+    .skin-youth {
+        margin-top: 1rem;
+    }
 }

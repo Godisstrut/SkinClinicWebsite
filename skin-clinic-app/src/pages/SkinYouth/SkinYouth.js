@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import Fade from 'react-bootstrap/Fade';
+import Collapse from 'react-bootstrap/esm/Collapse';
 import SkinYouthCard from './SkinYouthCard';
 import SkinYouthData from "./SkinYouthData.json";
 import Container from 'react-bootstrap/Container';
@@ -9,8 +9,11 @@ import Col from 'react-bootstrap/Col';
 import "./SkinYouth.css";
 
 function SkinYouth() {
+    /* State variables for tracking which descriptions are open
+    used so that not all description opens at once */
     const [openIndexes, setOpenIndexes] = useState({});
 
+    // Function for toggling visibility 
     const toggleDescription = (id) => {
         setOpenIndexes((prev) => ({
         ...prev,
@@ -22,13 +25,14 @@ function SkinYouth() {
         <Container>
             <Row>
                 <Col>
-                <h1>Hudföryngring</h1>
                 {SkinYouthData.map((data, id) => (<>
                     <SkinYouthCard 
                     key= {id}
                     title = {data.title}
-                    treatments={data.treatments}
+                    treatments = {data.treatments}
                     price = {data.price}
+                    summary = {data.summary}
+                    bullets = {data.bullets}
                     />
                     <Button
                   onClick={() => toggleDescription(id)}
@@ -37,11 +41,13 @@ function SkinYouth() {
                 >
                   {openIndexes[id] ? "Visa mindre" : "Läs mer"}
                 </Button>
-                <Fade in={openIndexes[id]}>
-                  <div id="example-fade-text">
+                <Collapse in={openIndexes[id]}>
+                  <div>
+                    <div id="example-fade-text">
                     <p>{data.description}</p>
+                    </div>
                   </div>
-                </Fade>
+                </Collapse>
                 </>))}
                 <>
                 </>

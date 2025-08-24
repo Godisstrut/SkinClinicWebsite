@@ -1,4 +1,29 @@
 .brand-card {
     background-color: #fffff8;
     margin: auto;
+    width: 60em;
+}
+
+@media (max-width: 1080px) {
+    .brand-card {
+        width: 50em;
+    }
+}
+
+@media (max-width: 820px) {
+    .brand-card {
+        width: 40em;
+    }
+}
+
+@media (max-width: 660px) {
+    .brand-card {
+        width: 30em;
+    }
+}
+
+@media (max-width: 580px) {
+    .brand-card {
+        width: 23em;
+    }
 }

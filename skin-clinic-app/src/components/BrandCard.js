@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 function BrandCard({name, image, description}) {
     return(
-    <Card className="brand-card" style={{ width: '60rem' }}>
+    <Card className="brand-card">
       <Card.Img variant="top" src= {image} alt={`Bild på ${name}`} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>

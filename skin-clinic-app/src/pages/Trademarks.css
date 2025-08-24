@@ -1,6 +1,7 @@
 .trademarks {
     background-color: #fffff8;
     font-family: "Playfair Display", serif;
+    margin-top: 8rem;
 }
 
 .trademarks h1 {
@@ -21,4 +22,10 @@
 .card-link:hover {
     text-decoration: underline;
     color: #995700;
+}
+
+@media (max-width: 1080px) {
+    .trademarks {
+        margin-top: 1rem;
+    }
 }

@@ -6,13 +6,11 @@ function BotoxCard({ title, area, price, summary, bullets }) {
       <h4 className="area">{area}</h4>
       <p className="price">{price}</p>
       <p className="summary">{summary}</p>
-      {Array.isArray(bullets) && bullets.length > 0 && (
-        <ul className="bullet-points">
-          {bullets.map((b, i) => (
-            <li key={i}>{b}</li>
-          ))}
-        </ul>
-      )}
+      <ul className="bullet-points">
+        {bullets.map((b, i) => (
+          <li key={i}>{b}</li>
+        ))}
+      </ul>
     </div>
   );
 }
