@@ -1,6 +1,6 @@
 function ContactMap({
     query = "Malmö SkinClinic, Storgatan 39A, Malmö",
-    height = 320
+    height = 340
 }) {
     const place = encodeURIComponent(query)
     return(

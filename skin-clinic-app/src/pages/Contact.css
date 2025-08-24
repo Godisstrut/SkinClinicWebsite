@@ -10,12 +10,15 @@ html, body {
     margin-top: 9rem;
 }
 
+.col {
+    margin: 1rem;
+}
+
 .about-text {
     background-color: #fff;
     border-radius: 15px;
     padding: 1em;
     margin: 1rem;
-    /*Pamps css styling */
     box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
 }
 
@@ -24,7 +27,6 @@ html, body {
     border-radius: 15px;
     padding: 1em;
     margin: 1rem;
-    /*Pamps css styling */
     box-shadow: rgba(0,0,0,0.04) 0px 4px 8px -2px
 }
 

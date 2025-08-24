@@ -1,22 +1,28 @@
 import BringOutBestMolderm from "../img/BringOutBestMolderm.png"
 import YouthfulMoisture from "../img/YouthfulMoisture.png"
 import LipsMolderm from "../img/LipsMolderm.png"
+import MoldermClassic from "../img/MoldermClassic.png"
 
 const brands = [
     {
-        name: "Molderm",
+        name: "​Crafted in Sweden, Made in Switzerland",
         image: BringOutBestMolderm,
-        description: "WE BELIEVE IN NATURAL BEAUTY! Natural beauty goes deeper than what you can see on the surface.- How does the gel act within the tissue? How does it integrate? How pure is it? How evenly does it break down?There are a lot of questions that need to be asked when choosing a dermal filler. With Molderm® you get natural beauty from the inside and out."
+        description: "Molderm® - den senaste utvecklingen av fillers."
     },
     {
-        name: "Molderm",
+        name: "Fantastisk lyster, varje dag",
         image: YouthfulMoisture,
-        description: "Molderm® GLOW - Bringing youthful moisture to your skin."
+        description: "MOLDERM® GLOW är en del av Molderm Aesthetics banbrytande anti-aging program som även inkluderar MOLDERM® GLOW+."
     },
     {
-        name: "Molderm",
+        name: "För sofistikerade, vackra läppar",
         image: LipsMolderm,
-        description: "Molderm® LIPS - Crafted with a perfect balance to create volume, definition and hydration."
+        description: "MOLDERM® LIPS är framtagen med hjälp av vår patenterade Fine-Tuning Technology™, för att ge den perfekta balansen av volym, definition och hydrering. Resultaten är långvariga och helt utan migrering."
+    },
+    {
+        name: "Skönhetens vetenskap",
+        image: MoldermClassic,
+        description: "Baserat på vår patenterade Fine-Tuning Technology™ för optimalt lyft och reduktion av oönskade rynkor och linjer"
     }
 ]
 
