@@ -2,10 +2,11 @@ import BringOutBestMolderm from "../img/BringOutBestMolderm.png"
 import YouthfulMoisture from "../img/YouthfulMoisture.png"
 import LipsMolderm from "../img/LipsMolderm.png"
 import MoldermClassic from "../img/MoldermClassic.png"
+import MoldermGlowPlus from "../img/MoldermGlowPlus.png"
 
 const brands = [
     {
-        name: "​Crafted in Sweden, Made in Switzerland",
+        name: "Crafted in Sweden, Made in Switzerland",
         image: BringOutBestMolderm,
         description: "Molderm® - den senaste utvecklingen av fillers."
     },
@@ -23,6 +24,11 @@ const brands = [
         name: "Skönhetens vetenskap",
         image: MoldermClassic,
         description: "Baserat på vår patenterade Fine-Tuning Technology™ för optimalt lyft och reduktion av oönskade rynkor och linjer"
+    },
+    {
+        name: "Reducera föråldringsprocessen",
+        image: MoldermGlowPlus,
+        description: "MOLDERM® GLOW+ är en del av Molderm Aesthetics banbrytande anti-aging program som även inkluderar MOLDERM® GLOW."
     }
 ]
 
