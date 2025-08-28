@@ -51,4 +51,8 @@ html, body {
     .skin-youth {
         margin-top: 1rem;
     }
+
+    .bullet-points {
+        text-align: left;
+    }
 }

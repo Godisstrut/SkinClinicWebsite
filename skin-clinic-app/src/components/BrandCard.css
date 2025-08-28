@@ -1,7 +1,13 @@
 .brand-card {
     background-color: #fffff8;
     margin: auto;
-    width: 60em;
+    width: 65em;
+}
+
+@media (max-width: 1080px) {
+    .brand-card {
+        width: 60em;
+    }
 }
 
 @media (max-width: 1024px) {

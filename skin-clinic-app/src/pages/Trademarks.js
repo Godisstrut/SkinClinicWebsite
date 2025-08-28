@@ -13,6 +13,7 @@ function Trademarks() {
                     name={brand.name}
                     image={brand.image}
                     description={brand.description}
+                    url={brand.url}
                 />
                 ))}
             </div>
