@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Denni from "../img/Denni.webp"
+import Denni_new from "../img/Denni_new.jpg"
 import skinclinic_gata from "../img/skinclinic_gata.jpg"
 import skinclinic_op from "../img/skinclinic_op.jpg";
 
@@ -16,7 +16,7 @@ function ImageCarousel() {
         </img>
       </Carousel.Item>
       <Carousel.Item interval={5000}>
-        <img className='d-block w-100' src={Denni} alt="Bild på Denni" style={{ height: '60em', objectFit: 'cover' }}>
+        <img className='d-block w-100' src={Denni_new} alt="Bild på Denni" style={{ height: '60em', objectFit: 'cover' }}>
       </img>
       </Carousel.Item>
     </Carousel>
