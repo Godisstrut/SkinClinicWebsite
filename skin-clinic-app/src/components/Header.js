@@ -23,7 +23,7 @@ function Header() {
                 <Link to="/">Startsida</Link>
                 <div className="header-link"><Dropdown /></div> 
                 <Link to="/trademarks">Varumärken</Link>
-                <Link to="/contact">Kontakt oss</Link>
+                <Link to="/contact">Kontakta oss</Link>
             </div>
         </div>
     )
