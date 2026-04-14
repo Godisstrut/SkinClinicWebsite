@@ -1,8 +1,5 @@
 import { useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import Button from "../../components/Button";
 import Collapse from 'react-bootstrap/esm/Collapse';
 import BotoxCard from './BotoxCard';
 import BotoxData from './BotoxData.json';
@@ -12,6 +9,7 @@ function Botox() {
   /* State variables for tracking which descriptions are open
   used so that not all description opens at once */
   const [openIndexes, setOpenIndexes] = useState({});
+  const BOOKING_URL = 'https://www.bokadirekt.se/';
 
   // Function for toggling visibility 
   const toggleDescription = (id) => {
@@ -22,9 +20,7 @@ function Botox() {
   };
   return (
     <div className="botox">
-      <Container>
-        <Row>
-          <Col>
+      <div className="botox-grid">
             {BotoxData.map((data, id) => (
               <div key={id}>
                 <BotoxCard
@@ -34,25 +30,28 @@ function Botox() {
                   summary={data.summary}
                   bullets={data.bullets}
                 />
-                <Button
+                <div className="botox-card-footer">
+                <a href={BOOKING_URL} className="botox-book-btn">
+                  Boka tid
+                </a>
+                <button
+                  className="botox-toggle-btn"
                   onClick={() => toggleDescription(id)}
                   aria-controls={`botox-description-${id}`}
                   aria-expanded={openIndexes[id] || false}
                 >
-                  {openIndexes[id] ? 'Visa mindre' : 'Läs mer'}
-                </Button>
-                <Collapse in={openIndexes[id]}>
-                  <div>
-                    <div id="example-fade-text">
-                    <p>{data.description}</p>
-                    </div>
-                  </div>
-                </Collapse>
+                  {openIndexes[id] ? 'Visa mindre ↑' : 'Läs mer ↓'}
+                </button>
               </div>
+ 
+              <Collapse in={openIndexes[id] || false}>
+                <div id={`example-fade-text-${id}`}>
+                  <p className="example-fade-text">{data.description}</p>
+                </div>
+              </Collapse>
+            </div>
             ))}
-          </Col>
-        </Row>
-      </Container>
+      </div>
     </div>
   );
 }

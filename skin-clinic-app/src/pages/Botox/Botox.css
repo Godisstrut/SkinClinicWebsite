@@ -4,6 +4,12 @@
     margin-top: 7rem;
 }
 
+.botox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
 .botox-card {
     background-color: #fff;
     padding: 1rem;
