@@ -1,4 +1,4 @@
-/* ─── Tokens ─────────────────────────────────────────────────────────────── */
+
 :root {
   --pink:         #D4537E;
   --pink-dark:    #993556;
@@ -11,7 +11,7 @@
   --radius-badge: 99px;
 }
 
-/* ─── Section ─────────────────────────────────────────────────────────────── */
+
 .botox {
   padding: 2.5rem 0 4rem;
 }
@@ -22,21 +22,21 @@
   margin: 0 0 0.75rem;
 }
 
-/* ─── Card grid ───────────────────────────────────────────────────────────── */
+
 .botox-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   padding-top: 10em;
 }
 
-/* ─── Card wrapper ────────────────────────────────────────────────────────── */
+
 .botox-card-wrap {
   display: flex;
   flex-direction: column;
   padding: 1em;
 }
 
-/* ─── Card ────────────────────────────────────────────────────────────────── */
+
 .botox-card {
   background: #fff;
   border: 0.5px solid var(--border);
@@ -58,7 +58,7 @@
   border-bottom: none;
 }
 
-/* ─── Card header ─────────────────────────────────────────────────────────── */
+
 .botox-card-header {
   display: flex;
   justify-content: space-between;
@@ -80,7 +80,7 @@
   color: var(--pink-light);
 }
 
-/* ─── Card body ───────────────────────────────────────────────────────────── */
+
 .botox-card-title {
   font-size: 2em;
   font-weight: 500;
@@ -107,7 +107,7 @@
   margin: 2px 0;
 }
 
-/* ─── Bullets ─────────────────────────────────────────────────────────────── */
+
 .botox-card-bullets {
   list-style: none;
   padding: 0;
@@ -135,7 +135,7 @@
   margin-top: 7px;
 }
 
-/* ─── Card footer (buttons) ───────────────────────────────────────────────── */
+
 .botox-card-footer {
   display: flex;
   gap: 10px;
@@ -189,7 +189,7 @@
   background: #f5f5f5;
 }
 
-/* ─── Expanded description ────────────────────────────────────────────────── */
+
 .botox-description {
   font-size: 14px;
   color: #555;
@@ -202,7 +202,7 @@
   border-radius: 0 0 var(--radius-card) var(--radius-card);
 }
 
-/* ─── Responsive ──────────────────────────────────────────────────────────── */
+
 @media (max-width: 600px) {
   .botox-grid {
     grid-template-columns: 1fr;

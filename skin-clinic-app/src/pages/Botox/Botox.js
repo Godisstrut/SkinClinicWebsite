@@ -4,7 +4,7 @@ import BotoxCard from './BotoxCard';
 import BotoxData from './BotoxData.json';
 import './Botox.css';
 
-const BOOKING_URL = 'https://www.bokadirekt.se/'; // 🔁 Replace with your BokaDirekt link
+const BOOKING_URL = "https://www.bokadirekt.se/places/malmo-skin-clinic-57952";
 
 function Botox() {
   const [openIndexes, setOpenIndexes] = useState({});

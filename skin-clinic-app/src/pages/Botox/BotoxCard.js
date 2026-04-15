@@ -1,6 +1,7 @@
 function BotoxCard({ areaLabel, title, price, duration, featured, featuredLabel, bullets }) {
   return (
     <div className={`botox-card${featured ? ' botox-card-featured' : ''}`}>
+
       <div className="botox-card-header">
         <p className="botox-card-area">{areaLabel}</p>
         {featured && featuredLabel && (
@@ -25,6 +26,7 @@ function BotoxCard({ areaLabel, title, price, duration, featured, featuredLabel,
           </li>
         ))}
       </ul>
+
     </div>
   );
 }
