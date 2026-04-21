@@ -51,6 +51,7 @@
 
 .botox-card:hover {
   border-color: var(--border-hover);
+
 }
 
 .botox-card-featured {
@@ -66,7 +67,8 @@
 }
 
 .botox-card-area {
-  font-size: 14px;
+  font-size: 1.1em;
+  font-weight: 600;
   color: #888;
   margin: 0;
 }
@@ -167,7 +169,7 @@
 }
 
 .botox-book-btn:hover {
-  background: var(--pink-dark);
+  background-color: #993556;
   color: #fff;
   text-decoration: none;
 }
@@ -203,8 +205,9 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1180px) {
   .botox-grid {
     grid-template-columns: 1fr;
+    padding-top: 2em;
   }
 }

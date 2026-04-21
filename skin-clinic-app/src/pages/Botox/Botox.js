@@ -35,7 +35,7 @@ function Botox() {
               />
 
               <div className="botox-card-footer">
-                <a href={BOOKING_URL} className="botox-book-btn">
+                <a href={BOOKING_URL} target="blank" className="botox-book-btn">
                   Boka tid
                 </a>
                 <button
