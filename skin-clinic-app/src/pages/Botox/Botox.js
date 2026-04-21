@@ -18,6 +18,17 @@ function Botox() {
 
   return (
     <section className="botox">
+      <div className="botox-intro">
+        <h1 className="botox-intro-heading" >Botox</h1>
+        <p className="botox-intro-text">
+          Botulinumtoxin (botox) är ett muskelavslappnande läkemedel som i estetisk syfte används för att förhindra uppkomsten av linjer och rynkor samt förbättra redan existerande linjer. 
+        </p>
+        <div className="botox-intro-badges">
+            <span className="botox-intro-badge">legitimerad sjuksköterska</span>
+            <span className="botox-intro-badge">Botox behandling i upp till 3 områden</span>
+            <span className="botox-intro-badge">pannrynkor, argrynkor, ögonrynkor (kråkfötter)</span>
+        </div>
+      </div>
         <div className="botox-grid">
           {BotoxData.map((data, id) => (
             <div
@@ -25,7 +36,7 @@ function Botox() {
               className={`botox-card-wrap${data.featured ? ' botox-card-wrap-featured' : ''}`}
             >
               <BotoxCard
-                areaLabel={data.areaLabel}
+                area={data.area}
                 title={data.title}
                 price={data.price}
                 duration={data.duration}
