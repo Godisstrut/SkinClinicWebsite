@@ -254,6 +254,12 @@
   .botox-card-bullet-row {
     font-size: 0.9em;
   }
+  .botox-intro-heading {
+    font-size: 2.2em;
+  }
+  .botox-intro-text {
+    font-size: 1em;
+  }
 } 
 
 @media (max-width: 460px) {

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/esm/Collapse';
 import FillersCard from './FillersCard';
 import FillersData from './FillersData.json';
@@ -49,7 +48,7 @@ function Fillers() {
               />
  
               <div className="fillers-card-footer">
-                <a href={BOOKING_URL} className="fillers-book-btn">
+                <a href={BOOKING_URL} target="blank" className="fillers-book-btn">
                   Boka tid
                 </a>
                 <button

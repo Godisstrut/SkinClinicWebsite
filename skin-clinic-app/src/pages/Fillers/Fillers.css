@@ -242,6 +242,12 @@
   .fillers-card-bullet-row {
     font-size: 0.9em;
   }
+  .fillers-intro-heading {
+    font-size: 2.2em;
+  }
+  .fillers-intro-text {
+    font-size: 1em;
+  }
 } 
 
 @media (max-width: 460px) {
