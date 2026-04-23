@@ -18,7 +18,6 @@ function Fillers() {
   };
    return (
     <section className="fillers">
-      
         <div className="fillers-intro">
           <h1 className="fillers-intro-heading">Hyaluronsyra Filler</h1>
           <p className="fillers-intro-text">
@@ -46,7 +45,6 @@ function Fillers() {
                 featuredLabel={data.featuredLabel}
                 bullets={data.bullets}
               />
- 
               <div className="fillers-card-footer">
                 <a href={BOOKING_URL} target="blank" className="fillers-book-btn">
                   Boka tid
@@ -60,7 +58,6 @@ function Fillers() {
                   {openIndexes[id] ? 'Visa mindre ↑' : 'Läs mer ↓'}
                 </button>
               </div>
- 
               <Collapse in={openIndexes[id] || false}>
                 <div id={`filler-description-${id}`}>
                   <p className="fillers-description">{data.description}</p>

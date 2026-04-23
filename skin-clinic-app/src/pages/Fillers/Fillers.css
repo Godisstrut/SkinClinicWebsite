@@ -1,9 +1,5 @@
 
 :root {
-  --pink:         #D4537E;
-  --pink-dark:    #993556;
-  --pink-light:   #FBEAF0;
-  --pink-text:    #72243E;
   --border:       rgba(0, 0, 0, 0.12);
   --border-hover: rgba(0, 0, 0, 0.25);
   --radius-card:  12px;
@@ -45,8 +41,8 @@
   font-weight: 500;
   padding: 5px 14px;
   border-radius: 99px;
-  background: var(--pink-light);
-  color: var(--pink-text);
+  background-color: #FBEAF0;
+  color: #72243E;
 }
 
 .fillers-grid {
@@ -80,7 +76,7 @@
 }
 
 .fillers-card-featured {
-  border: 2px solid var(--pink);
+  border: 2px solid #D4537E;
   border-bottom: none;
 }
 
@@ -102,8 +98,8 @@
   font-weight: 500;
   padding: 4px 12px;
   border-radius: var(--radius-badge);
-  background: var(--pink);
-  color: var(--pink-light);
+  background-color: #D4537E;;
+  color: #FBEAF0;
 }
 
 .fillers-card-title {
@@ -116,7 +112,7 @@
 .fillers-card-price {
   font-size: 22px;
   font-weight: 500;
-  color: var(--pink-dark);
+  color: #993556;
   margin: 0;
 }
 
@@ -156,7 +152,7 @@
   height: 6px;
   min-width: 6px;
   border-radius: 50%;
-  background: var(--pink);
+  background-color: #D4537E;
   margin-top: 7px;
 }
 
@@ -172,7 +168,7 @@
 }
 
 .fillers-card-wrap-featured .fillers-card-footer {
-  border: 2px solid var(--pink);
+  border: 2px solid #D4537E;
   border-top: none;
 }
 
@@ -185,14 +181,14 @@
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  background: var(--pink);
+  background-color: #D4537E;
   color: #fff;
   border: none;
   transition:  0.15s ease;
 }
 
 .fillers-book-btn:hover {
-  background: var(--pink-dark);
+  background-color: #993556;
   color: #fff;
   text-decoration: none;
 }
@@ -233,7 +229,7 @@
   }
 
   .fillers-intro {
-    padding-top: 2em;
+    padding-top: 1em;
   }
 
 }

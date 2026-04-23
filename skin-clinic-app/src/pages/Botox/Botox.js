@@ -26,7 +26,7 @@ function Botox() {
         <div className="botox-intro-badges">
             <span className="botox-intro-badge">legitimerad sjuksköterska</span>
             <span className="botox-intro-badge">Botox behandling i upp till 3 områden</span>
-            <span className="botox-intro-badge">pannrynkor, argrynkor, ögonrynkor (kråkfötter)</span>
+            <span className="botox-intro-badge">pannrynkor, argrynkor, ögonrynkor</span>
         </div>
       </div>
         <div className="botox-grid">
@@ -39,7 +39,6 @@ function Botox() {
                 area={data.area}
                 title={data.title}
                 price={data.price}
-                duration={data.duration}
                 featured={data.featured}
                 featuredLabel={data.featuredLabel}
                 bullets={data.bullets}

@@ -1,4 +1,4 @@
-function BotoxCard({ area, title, price, duration, featured, featuredLabel, bullets }) {
+function BotoxCard({ area, title, price, featured, featuredLabel, bullets }) {
   return (
     <div className={`botox-card${featured ? ' botox-card-featured' : ''}`}>
       <div className="botox-card-header">
@@ -8,10 +8,7 @@ function BotoxCard({ area, title, price, duration, featured, featuredLabel, bull
         )}
       </div>
       <p className="botox-card-title">{title}</p>
-      <p className="botox-card-price">
-        {price}
-        <span className="botox-card-duration"> · {duration}</span>
-      </p>
+      <p className="botox-card-price">{price}</p>
       <hr className="botox-card-divider" />
       <ul className="botox-card-bullets">
         {bullets.map((b, i) => (
