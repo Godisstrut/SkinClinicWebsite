@@ -15,13 +15,14 @@
 
 .card-link {
     text-decoration: none;
-    color: #955E42;
+    color: #D4537E;
+    font-weight: 500;
     font-size: 1.3em;
 }
 
 .card-link:hover {
     text-decoration: underline;
-    color: #995700;
+    color: #993556;
 }
 
 @media (max-width: 1080px) {

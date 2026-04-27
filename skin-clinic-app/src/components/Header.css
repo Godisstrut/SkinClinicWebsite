@@ -1,7 +1,13 @@
-.header img {
-  width: 10%;
-  margin-right: 12em;
-  max-width: 200px;
+.header-logo img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .header {
@@ -13,8 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4rem; 
   font-family: "Playfair Display", serif;
-  margin-bottom: 0;
   transition: 0.3s ease;
 }
 
@@ -75,12 +81,14 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
+    gap: 0;
   }
 
   .header img {
     width: 30%;
     margin: auto;
   }
+  
 
   .links {
     display: flex;
@@ -119,8 +127,11 @@
     align-items: center;
   }
 
+  .header-logo {
+    flex-direction: column;
+  }
+
   .header img {
     width: 40%;
-    margin: 1rem 0;
   }
 }
