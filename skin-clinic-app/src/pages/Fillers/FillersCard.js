@@ -1,17 +1,25 @@
-function FillersCard({title, price, summary, bullets, description}) {
-    return(
-        <div className="fillers-card" >
-            <h2 className="title">{title}</h2>
-            <p className="price">{price}</p>
-            <p className="summary">{summary}</p>
-            <ul className="bullet-points">
-                {bullets.map((b, i) => (
-                    <li key={i}>{b}</li>
-                ) )}
-            </ul>
-            <p>{description}</p>
-        </div>
-    )
+function FillersCard({ amount, title, price, featured, featuredLabel, bullets }) {
+  return (
+    <div className={`fillers-card${featured ? ' fillers-card-featured' : ''}`}>
+      <div className="fillers-card-header">
+        <p className="fillers-card-area">{amount}</p>
+        {featured && featuredLabel && (
+          <span className="fillers-card-badge">{featuredLabel}</span>)}
+      </div>
+      <p className="fillers-card-title">{title}</p>
+      <p className="fillers-card-price">{price}</p>
+      <hr className="fillers-card-divider" />
+      <ul className="fillers-card-bullets">
+        {bullets.map((b, i) => (
+          <li key={i} className="fillers-card-bullet-row">
+            <span className="fillers-card-dot" aria-hidden="true" />
+            {b}
+          </li>
+        ))}
+      </ul>
+
+    </div>
+  );
 }
 
-export default FillersCard
+export default FillersCard;

@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import ContactMap from "../components/ContactMap";
+import Button from "../components/Button";
 import "./Contact.css"
 
 function Contact() {
@@ -26,7 +26,7 @@ function Contact() {
                             <Form.Label>Ärende:</Form.Label>
                             <Form.Control name="message" as="textarea" rows={11} placeholder="Beskrivning" required/>
                         </Form.Group>
-                        <Button type="submit" variant="primary">Skicka</Button>
+                        <Button>Skicka</Button>
                     </Form>
                 </Col>
                 <Col>

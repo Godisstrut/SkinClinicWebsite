@@ -1,8 +1,37 @@
 [
     {
+        "area": "1 område",
         "title": "Botulinumtoxin",
-        "area": "Botox behandling i 1 område, pannrynkor, argrynkor eller ögonrynkor (kråkfötter)",
-        "price": "30 min, från 2 000 kr",
+        "price": "30 min, från 1 999 kr",
+        "summary": "Botulinumtoxin (botox) är ett muskelavslappnande läkemedel som i estetisk syfte används för att förhindra uppkomsten av linjer och rynkor samt förbättra redan existerande linjer",
+        "featured": false,
+        "bullets": [
+            "Full effekt efter 10-14 dagar, syns redan efter 3-7",
+            "Behandlingen ger bättre effekt över tid ",
+            "Det är inte ovanligt att känna kortvariga spänningar",
+            "Dessa släpper efter någon dag och är helt ofarliga."
+        ],
+        "description": "Botulinumtoxin verkar i nervsynapserna där det förhindrar muskelkontraktioner som ger uppehov till linjer och rynkor. Efter 3-6 månader börjar synapserna återskapas vilket leder till att muskeln kan kontraheras igen. Behandlingen ger bättre effekt över tid och efter upprepade behandlingar varar resultatet längre. Effekten syns helt efter 10-14 dagar men börjar ge resultat redan efter 3 - 7 dagar. Det är inte ovanligt att känna kortvariga spänningar, dessa släpper efter någon dag och är helt ofarliga. "
+    },
+    {
+        "area": "2 områden",
+        "title": "Botulinumtoxin",
+        "price": "30 min, från 2 499 kr",
+        "summary": "Botulinumtoxin (botox) är ett muskelavslappnande läkemedel som i estetisk syfte används för att förhindra uppkomsten av linjer och rynkor samt förbättra redan existerande linjer",
+        "featured": false,
+        "bullets": [
+            "Full effekt efter 10-14 dagar, syns redan efter 3-7",
+            "Behandlingen ger bättre effekt över tid ",
+            "Det är inte ovanligt att känna kortvariga spänningar",
+            "Dessa släpper efter någon dag och är helt ofarliga."
+        ],
+        "description": "Botulinumtoxin verkar i nervsynapserna där det förhindrar muskelkontraktioner som ger uppehov till linjer och rynkor. Efter 3-6 månader börjar synapserna återskapas vilket leder till att muskeln kan kontraheras igen. Behandlingen ger bättre effekt över tid och efter upprepade behandlingar varar resultatet längre. Effekten syns helt efter 10-14 dagar men börjar ge resultat redan efter 3 - 7 dagar. Det är inte ovanligt att känna kortvariga spänningar, dessa släpper efter någon dag och är helt ofarliga. "
+    },
+    {
+        "area": "3 områden",
+        "title": "Botulinumtoxin",
+        "price": "30 min, från 2 999kr",
+        "featured": false,
         "summary": "Botulinumtoxin (botox) är ett muskelavslappnande läkemedel som i estetisk syfte används för att förhindra uppkomsten av linjer och rynkor samt förbättra redan existerande linjer",
         "bullets": [
             "Full effekt efter 10-14 dagar, syns redan efter 3-7",
@@ -13,28 +42,16 @@
         "description": "Botulinumtoxin verkar i nervsynapserna där det förhindrar muskelkontraktioner som ger uppehov till linjer och rynkor. Efter 3-6 månader börjar synapserna återskapas vilket leder till att muskeln kan kontraheras igen. Behandlingen ger bättre effekt över tid och efter upprepade behandlingar varar resultatet längre. Effekten syns helt efter 10-14 dagar men börjar ge resultat redan efter 3 - 7 dagar. Det är inte ovanligt att känna kortvariga spänningar, dessa släpper efter någon dag och är helt ofarliga. "
     },
     {
-        "title": "Botulinumtoxin",
-        "area": "Botox behandling i upp till 2 områden, pannrynkor, argrynkor, ögon rynkor (kråkfötter)",
-        "price": "30 min, från 2 500 kr",
+        "area": "3 områden",
+        "title": "Botox - 1 års abonnemang",
+        "price": "30 min, från 7 199kr",
+        "featured": false,
         "summary": "Botulinumtoxin (botox) är ett muskelavslappnande läkemedel som i estetisk syfte används för att förhindra uppkomsten av linjer och rynkor samt förbättra redan existerande linjer",
         "bullets": [
-            "Full effekt efter 10-14 dagar, syns redan efter 3-7",
-            "Behandlingen ger bättre effekt över tid ",
-            "Det är inte ovanligt att känna kortvariga spänningar",
-            "Dessa släpper efter någon dag och är helt ofarliga."
-        ],
-        "description": "Botulinumtoxin verkar i nervsynapserna där det förhindrar muskelkontraktioner som ger uppehov till linjer och rynkor. Efter 3-6 månader börjar synapserna återskapas vilket leder till att muskeln kan kontraheras igen. Behandlingen ger bättre effekt över tid och efter upprepade behandlingar varar resultatet längre. Effekten syns helt efter 10-14 dagar men börjar ge resultat redan efter 3 - 7 dagar. Det är inte ovanligt att känna kortvariga spänningar, dessa släpper efter någon dag och är helt ofarliga. "
-    },
-    {
-        "title": "Botulinumtoxin",
-        "area": "Botox behandling i upp till 3 områden, pannrynkor, argrynkor, ögon rynkor (kråkfötter)",
-        "price": "30 min, från 3 000 kr",
-        "summary": "Botulinumtoxin (botox) är ett muskelavslappnande läkemedel som i estetisk syfte används för att förhindra uppkomsten av linjer och rynkor samt förbättra redan existerande linjer",
-        "bullets": [
-            "Full effekt efter 10-14 dagar, syns redan efter 3-7",
-            "Behandlingen ger bättre effekt över tid ",
-            "Det är inte ovanligt att känna kortvariga spänningar",
-            "Dessa släpper efter någon dag och är helt ofarliga."
+            "Trött på att rynkorna dyker upp som ovälkomna gäster? ",
+            "Med vårt Botox-abonnemang får du tre områden behandlade, upp till tre gånger per år",
+            "Inga fler panikbokningar inför festen, presentationen eller dejten",
+            " du är alltid ett steg före och till ett billigare pris. "
         ],
         "description": "Botulinumtoxin verkar i nervsynapserna där det förhindrar muskelkontraktioner som ger uppehov till linjer och rynkor. Efter 3-6 månader börjar synapserna återskapas vilket leder till att muskeln kan kontraheras igen. Behandlingen ger bättre effekt över tid och efter upprepade behandlingar varar resultatet längre. Effekten syns helt efter 10-14 dagar men börjar ge resultat redan efter 3 - 7 dagar. Det är inte ovanligt att känna kortvariga spänningar, dessa släpper efter någon dag och är helt ofarliga. "
     }

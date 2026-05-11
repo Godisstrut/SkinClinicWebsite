@@ -1,16 +1,24 @@
-/* */
-function BotoxCard({ title, area, price, summary, bullets }) {
+function BotoxCard({ area, title, price, featured, featuredLabel, bullets }) {
   return (
-    <div className="botox-card">
-      <h2 className="title">{title}</h2>
-      <h4 className="area">{area}</h4>
-      <p className="price">{price}</p>
-      <p className="summary">{summary}</p>
-      <ul className="bullet-points">
+    <div className={`botox-card${featured ? ' botox-card-featured' : ''}`}>
+      <div className="botox-card-header">
+        <p className="botox-card-area">{area}</p>
+        {featured && featuredLabel && (
+          <span className="botox-card-badge">{featuredLabel}</span>
+        )}
+      </div>
+      <p className="botox-card-title">{title}</p>
+      <p className="botox-card-price">{price}</p>
+      <hr className="botox-card-divider" />
+      <ul className="botox-card-bullets">
         {bullets.map((b, i) => (
-          <li key={i}>{b}</li>
+          <li key={i} className="botox-card-bullet-row">
+            <span className="botox-card-dot" aria-hidden="true" />
+            {b}
+          </li>
         ))}
       </ul>
+
     </div>
   );
 }

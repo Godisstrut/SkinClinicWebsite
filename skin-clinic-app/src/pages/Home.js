@@ -15,7 +15,7 @@ function Home() {
             <h3>Om oss</h3>
             <p>
             Efter mer än 10 år i branschen är Malmö Skinclinic äntligen tillgängligt på BokaDirekt.
-            Familjeföretaget drivs av mor och son - legitimerade sjuksköterskor med stor erfarenhet inom estetiska behandlingar.
+            Familjeföretaget drivs av mor och son med erfarenheter som legitimerade sjuksköterskor, främst inom estetik!
             </p>
             <p>
             Hos oss får du alltid gratis konsultation i samband med besöket. Alla nya kunder behöver boka en konsultation minst 48 timmar innan behandling.

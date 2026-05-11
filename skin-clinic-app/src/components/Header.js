@@ -18,9 +18,10 @@ function Header() {
   }, []);
     return(
         <div className={`header ${scrolled ? "scrolled" : ""}`}>
-            <img src={logo} alt="Bild på företagets logga"></img>
+            <Link to="/" className="header-logo">
+   <            img src={logo} alt="Bild på företagets logga" />
+            </Link>
             <div className="links">
-                <Link to="/">Startsida</Link>
                 <div className="header-link"><Dropdown /></div> 
                 <Link to="/trademarks">Varumärken</Link>
                 <Link to="/contact">Kontakta oss</Link>
