@@ -22,7 +22,6 @@ function Header() {
    <            img src={logo} alt="Bild på företagets logga" />
             </Link>
             <div className="links">
-                <Link to="/">Startsida</Link>
                 <div className="header-link"><Dropdown /></div> 
                 <Link to="/trademarks">Varumärken</Link>
                 <Link to="/contact">Kontakta oss</Link>
