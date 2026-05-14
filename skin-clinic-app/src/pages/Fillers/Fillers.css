@@ -1,3 +1,6 @@
+body {
+  background-color: #fffff8;
+}
 
 :root {
   --border:       rgba(0, 0, 0, 0.12);
